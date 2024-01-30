@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/92730d8d93.js" crossorigin="anonymous"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        price: '#FABE4C',
+                    }
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <header class="container bg-amber-100 mx-auto">
+        <div class="md:flex justify-center items-center mt-12 py-12">
+            <div class="space-y-6">
+                <h1 class="text-7xl font-semibold"><span class="text-amber-400">Be the Penguins</span> <br> of Winter
+                </h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, quo!</p>
+                <button class="rounded py-4 px-8 text-white uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019]">
+                    <i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+            </div>
+            <div>
+                <img class="3/4 md:w-full" src="images/model.png" alt="">
+            </div>
+        </div>
+
+    </header>
+    <main class="container mx-auto">
+        <section class="mt-12">
+            <h2 class="text-5xl font-semibold uppercase mt-6">Womens Jackets</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
+                <div>
+                    <div class="bg-gray-200 p-5 rounded-2xl drop-shadow-2xl"><img class="text-2xl mx-auto"
+                            src="images/jacket-1.png" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam eum, beatae sapiente natus esse
+                        aliquam reprehenderit aut expedita recusandae adipisci?</p>
+                    <div class="flex justify-between">
+                        <h2 class="text-4xl font-semibold text-price">$234</h2>
+                        <button
+                            class="rounded py-4 px-8 text-white uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019]">
+                            <i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="bg-gray-200 p-5 rounded-2xl drop-shadow-2xl"><img class="text-2xl mx-auto"
+                            src="images/jacket-1.png" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam eum, beatae sapiente natus esse
+                        aliquam reprehenderit aut expedita recusandae adipisci?</p>
+                    <div class="flex justify-between">
+                        <h2 class="text-4xl font-semibold text-price">$234</h2>
+                        <button
+                            class="rounded py-4 px-8 text-white uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019]">
+                            <i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="bg-gray-200 p-5 rounded-2xl drop-shadow-2xl"><img class="text-2xl mx-auto"
+                            src="images/jacket-1.png" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam eum, beatae sapiente natus esse
+                        aliquam reprehenderit aut expedita recusandae adipisci?</p>
+                    <div class="flex justify-between">
+                        <h2 class="text-4xl font-semibold text-price">$234</h2>
+                        <button
+                            class="rounded py-4 px-8 text-white uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019]">
+                            <i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <!-- mens jacket task for tomorrow -->
+        </section>
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-5">
+            <div class="order-2 md:order-1 bg-slate-100 flex gap-5 p-6 rounded-2xl shadow-2xl">
+                <img class="h-20 w-20" src="icons/house.png" alt="">
+                <div>
+                    <h3 class="text-2xl">Find The Perfect Fit</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, adipisci.</p>
+                </div>
+            </div>
+            <div class="order-1 md:order-2 bg-slate-100 row-span-3 ">
+                <img src="images/shopping.png" alt="">
+            </div>
+            <div class="order-3 bg-slate-100 flex gap-5 p-6 rounded-2xl shadow-2xl">
+                <img class="h-20 w-20" src="icons/box.png" alt="">
+                <div>
+                    <h3 class="text-2xl">Free Exchange</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, adipisci.</p>
+                </div>
+            </div>
+            <div class="order-4 bg-slate-100 flex gap-5 p-6 rounded-2xl shadow-2xl">
+                <img class="h-20 w-20" src="icons/question.png" alt="">
+                <div>
+                    <h3 class="text-2xl">Contact Our Seller</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, adipisci.</p>
+                </div>
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+
+
+    </footer>
+
+</body>
+
+</html>
